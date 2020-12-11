@@ -1,0 +1,194 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-wrapper--red {
+    background-color: #b67d2d;
+    color: white;
+}
+
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    color: #141413;
+    background-color: #f1ba0b;
+}
+.callout-container {
+    height: 100vh;
+  background: url("../images/whiskey.jpg") no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+position: relative;
+}
+
+
+.features-container {
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+/* Page Headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom:0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
+/*jumbotron*/
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+} 
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color:#d0d0d0;
+}
+
+.jumbotron p {
+    color: #20c997;
+}
+
+/*navbar*/
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.25);
+
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+/*block-divider*/
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #c69e1c;
+}
+
+.block-divider--green {
+background-color: #1deb9b;
+}
+
+.block-divider--orange {
+    background-color: #ebb11d;
+}
+
+.block-divider--white {
+    background-color: white;
+}
+.block-divider--short {
+    width: 75px;
+}
+
+/* Content Container */
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.opaque-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+/*button*/
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: #121213;
+    background-color: #b67d2d;
+    border-color: #e68fb7;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    color: #6202cb;
+    background-color: #46a16d;
+    text-decoration: none;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #b67d2d;
+}
